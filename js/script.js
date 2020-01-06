@@ -397,14 +397,14 @@ $(document).ready(() => {
       case 'whoami': {
         if (options.includes('j')) {
           print([
-            '*Jinseo Jason Park*',
+            '*Naseeb Bajracharya*',
             '',
             ...personalStatement.split('\n')
           ], true);
         } else {
           print([
-            '*Jinseo Jason Park*',
-            'I am a developer, hackathoner, and backpacker.',
+            '*Naseeb Bajracharya*',
+            'I am a web developer, Learner and Designer.',
             'Type "*whoami -j*" to show my journey so far.',
           ], true);
         }
