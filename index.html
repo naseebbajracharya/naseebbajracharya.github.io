@@ -33,17 +33,17 @@
     blink-caret .75s step-end infinite;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+         /* The typing effect */
+         @keyframes typing {
+         from { width: 0 }
+         to { width: 100% }
+         }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
+         /* The typewriter cursor effect */
+         @keyframes blink-caret {
+         from, to { border-color: transparent }
+         50% { border-color: orange; }
+         }
      </style>
    <body>
       <div class="screen">
@@ -59,7 +59,7 @@
                   <div class="name">Work Experience</div>
                </a>
                
-               <a class="app" href="#directory-education">
+               <a class="app" href="#directory-skills">
                   <div class="icon icon-directory"></div>
                   <div class="name">Skills</div>
                </a>
@@ -130,7 +130,7 @@
                               <div class="name">Work Experience</div>
                            </a>
                           
-                           <a class="directory" href="#directory-education">
+                           <a class="directory" href="#directory-skills">
                               <div class="icon icon-directory"></div>
                               <div class="name">Skills</div>
                            </a>
@@ -223,10 +223,7 @@
                               <div class="icon icon-directory"></div>
                               <div class="name">..</div>
                            </a>
-                           <a class="directory" href="#directory-work_experience-chaporoyal">
-                              <div class="icon" style="background-image: url(img/experience/pokse.png)"></div>
-                              <div class="name">Pokse</div>
-                           </a>
+                           
                            <a class="directory" href="#directory-work_experience-incubatex">
                               <div class="icon" style="background-image: url(img/experience/cp.png)"></div>
                               <div class="name">Code-Projects</div>
@@ -250,32 +247,32 @@
                            
                         </div>
                        
-                        <div class="panel panel-child" id="directory-education">
+                        <div class="panel panel-child" id="directory-skills">
                            <a class="directory directory-parent" href="#directory-">
                               <div class="icon icon-directory"></div>
                               <div class="name">..</div>
                            </a>
-                           <a class="directory" href="#directory-education-gatech">
+                           <a class="directory" href="#directory-skills-gatech">
                               <div class="icon" style="background-image: url(img/skill/js.png)"></div>
                               <div class="name">JavaScript</div>
                            </a>
-                           <a class="directory" href="#directory-education-kams">
+                           <a class="directory" href="#directory-skills-kams">
                               <div class="icon" style="background-image: url(img/skill/html.png)"></div>
                               <div class="name">HTML-CSS</div>
                            </a>
-                           <a class="directory" href="#directory-education-ncta">
+                           <a class="directory" href="#directory-skills-ncta">
                               <div class="icon" style="background-image: url(img/skill/php.png)"></div>
                               <div class="name">PHP</div>
                            </a>
-                           <a class="directory" href="#directory-education-kdmhs">
+                           <a class="directory" href="#directory-skills-kdmhs">
                               <div class="icon" style="background-image: url(img/skill/ps.png)"></div>
                               <div class="name">Photoshop</div>
                            </a>
-                           <a class="directory" href="#directory-education-wp">
+                           <a class="directory" href="#directory-skills-wp">
                               <div class="icon" style="background-image: url(img/skill/wplogo.png)"></div>
                               <div class="name">WordPress</div>
                            </a>
-                           <a class="directory" href="#directory-education-ve">
+                           <a class="directory" href="#directory-skills-ve">
                             <div class="icon" style="background-image: url(img/skill/video-edit.png)"></div>
                             <div class="name">Video Editing</div>
                          </a>
@@ -493,21 +490,7 @@
                   }
                   </style>
 					 
-                        <div class="panel panel-preview" id="directory-work_experience-chaporoyal">
-                           <img class="preview" src="img/experience/pokse.png">
-                           <div class="property-container">
-                              <div class="property property-name">Pokse Inc.</div>
-                              <div class="property property-date">Feb. 2018 - 2019</div>
-                              <div class="property property-location">
-                                 <div>Nepal</div>
-                              </div>
-                              <div class="property property-position">Web Developer/Designer</div>
-                              <div class="property property-detail">
-                                 <div>Developing the corporate website and additional web app for internal projects</div>
-                              </div>
-                           </div>
-                           <a class="close" href="#directory-work_experience"></a>
-                        </div>
+   
                         <div class="panel panel-preview" id="directory-work_experience-incubatex">
                            <img class="preview" src="img/experience/cp.png">
                            <div class="property-container">
@@ -523,6 +506,7 @@
                            </div>
                            <a class="close" href="#directory-work_experience"></a>
                         </div>
+
                         <div class="panel panel-preview" id="directory-work_experience-freelancer">
                            <img class="preview" src="img/experience/tl.png">
                            <div class="property-container">
@@ -538,6 +522,7 @@
                            </div>
                            <a class="close" href="#directory-work_experience"></a>
                         </div>
+
                         <div class="panel panel-preview" id="directory-work_experience-ke">
                             <img class="preview" src="img/experience/ke.jpg">
                             <div class="property-container">
@@ -608,7 +593,9 @@
                             <img class="preview" src="img/touch/graduation.jpg">
                             <a class="close" href="#directory-projects"></a>
                          </div>
-                        <div class="panel panel-preview" id="directory-education-gatech">
+
+
+                        <div class="panel panel-preview" id="directory-skills-gatech">
                            <img class="preview" src="img/skill/js.png">
                            <div class="property-container">
                               <div class="property property-name">JavaScript</div>
@@ -616,9 +603,9 @@
                              <p>NodeJS, ReactJS, ExpressJS</p>
                             </div>
                            </div>
-                           <a class="close" href="#directory-education"></a>
+                           <a class="close" href="#directory-skills"></a>
                         </div>
-                        <div class="panel panel-preview" id="directory-education-wp">
+                        <div class="panel panel-preview" id="directory-skills-wp">
                           <img class="preview" src="img/skill/wplogo.png">
                           <div class="property-container">
                              <div class="property property-name">WordPress</div>
@@ -626,25 +613,25 @@
                             <p>Blogs, Ecommerce, Portfolio, Education</p>
                           </div>
                           </div>
-                          <a class="close" href="#directory-education"></a>
+                          <a class="close" href="#directory-skills"></a>
                        </div>
-                       <div class="panel panel-preview" id="directory-education-ve">
+                       <div class="panel panel-preview" id="directory-skills-ve">
                         <img class="preview" src="img/skill/video-edit.png">
                         <div class="property-container">
                            <div class="property property-name">Video Editing</div>
                           
                         </div>
-                        <a class="close" href="#directory-education"></a>
+                        <a class="close" href="#directory-skills"></a>
                      </div>
-                        <div class="panel panel-preview" id="directory-education-kams">
+                        <div class="panel panel-preview" id="directory-skills-kams">
                            <img class="preview" src="img/skill/html.png">
                            <div class="property-container">
                               <div class="property property-name">HTML - CSS</div>
   
                            </div>
-                           <a class="close" href="#directory-education"></a>
+                           <a class="close" href="#directory-skills"></a>
                         </div>
-                        <div class="panel panel-preview" id="directory-education-ncta">
+                        <div class="panel panel-preview" id="directory-skills-ncta">
                            <img class="preview" src="img/skill/php.png">
                            <div class="property-container">
                               <div class="property property-name">PHP</div>
@@ -652,9 +639,9 @@
                               <p>Basic PHP Knowledge</p>
                             </div>
                            </div>
-                           <a class="close" href="#directory-education"></a>
+                           <a class="close" href="#directory-skills"></a>
                         </div>
-                        <div class="panel panel-preview" id="directory-education-kdmhs">
+                        <div class="panel panel-preview" id="directory-skills-kdmhs">
                            <img class="preview" src="img/skill/ps.png">
                            <div class="property-container">
                               <div class="property property-name">Photoshop</div>
@@ -662,7 +649,7 @@
                               <p>Photo Editing, Simple Logo Design</p>
                             </div>
                            </div>
-                           <a class="close" href="#directory-education"></a>
+                           <a class="close" href="#directory-skills"></a>
                         </div>
                      </div>
                      <div class="interceptor"></div>
